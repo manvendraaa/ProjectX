@@ -38,7 +38,7 @@ export default function ActivityDashboard({
           />
         )}
         {editMode && (
-          <ActivityForm formClose={formClose} activity={selectedActivity} />
+          <ActivityForm formClose={formClose} selectedActivity={selectedActivity} />
         )}
       </GridColumn>
     </Grid>
